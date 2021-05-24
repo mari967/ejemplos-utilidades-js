@@ -1,0 +1,37 @@
+:root {
+  --rosa: #e94057;
+}
+
+.sistema-pestanas{
+  margin-bottom: 100px;
+}
+
+.pestanas{
+  margin-bottom: 10px;
+}
+
+.pestanas a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #e94057;
+  border-radius: 3px;
+}
+a.activo-pestania  {
+  border: 50px red;
+  font-weight: bold;
+  color: black;
+}
+
+.contenido-pestanas .bloque{
+  display: none;
+  background-color: #ECECEC;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.contenido-pestanas .bloque.activo{
+  display: block;
+}
+
